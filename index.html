@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="bmi.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <h1>
+        Eagle BMI Calculator
+    </h1>
+
+    <div class="hel">
+        <div class="container">
+            <div class="main">
+                <h2>BMI Calculator</h2>
+            </div>
+
+            <div class="input1">
+                <label for="weight">
+                    Enter Weight
+                </label>
+                <input type="number" name="weight" id="weight" placeholder="Enter weight in KG">
+            </div>
+            <div class="input2">
+                <label for="height">
+                    Enter Height
+                </label>
+                <input type="number" name="height" id="height" placeholder="Enter height in cm">
+            </div>
+            
+            <button id="check">
+                Check BMI
+            </button>
+
+            <div id="output"></div>
+
+            <div class="message">
+                <ul>
+                    <li>
+                        If your BMI is less than 16.0 then you are severe underweight.
+                    </li>
+                    <li>
+                        If your BMI is 16.0 - 18.4 then you are underweight.
+                    </li>
+                    <li>
+                        If your BMI is 18.5 - 24.9 then you are normal.
+                    </li>
+                    <li>
+                        If your BMI is 25.0 - 29.9 then you are overweight.
+                    </li>
+                    <li style="border-radius: 0px 0px 8px 8px;">
+                        If your BMI is greater than 30.0 then you are severe obese.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
